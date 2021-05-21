@@ -1,0 +1,23 @@
+.card {
+  width: 27vw;
+  height: 35vh;
+  border: none;
+
+  .item-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    border: 1px solid black;
+  }
+
+  .product-image {
+    height: 85%;
+    width: 82%;
+    margin: 0 9% 0 9%;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

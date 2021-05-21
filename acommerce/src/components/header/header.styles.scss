@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20vw 0 20vw;
+  height: 8vh;
+
+  .options {
+    .option {
+      padding: 10px 15px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+  }
+
+  .brandName {
+    padding: 10px 15px;
+  }
+}
